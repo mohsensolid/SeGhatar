@@ -7,12 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0401B83921779F59001A0892 /* ScoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401B83821779F59001A0892 /* ScoreManager.swift */; };
+		0401B83B2177A08B001A0892 /* ScoreDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401B83A2177A08B001A0892 /* ScoreDelegate.swift */; };
+		0401B83D2177A104001A0892 /* DefaultScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401B83C2177A104001A0892 /* DefaultScore.swift */; };
+		0401B83F2177A28A001A0892 /* ScoreManagerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401B83E2177A28A001A0892 /* ScoreManagerBase.swift */; };
+		0401B8412177A341001A0892 /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401B8402177A341001A0892 /* Step.swift */; };
+		0401B8442177B0E3001A0892 /* BaseDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401B8432177B0E3001A0892 /* BaseDelegate.swift */; };
+		0401B8462177BA3D001A0892 /* DefualtScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401B8452177BA3D001A0892 /* DefualtScoreTests.swift */; };
+		0401B849217844F3001A0892 /* gameOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401B848217844F3001A0892 /* gameOptions.swift */; };
+		0401B84B217876C6001A0892 /* OptionsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401B84A217876C6001A0892 /* OptionsItem.swift */; };
+		0401B84D21787AE3001A0892 /* optionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401B84C21787AE3001A0892 /* optionItem.swift */; };
+		0401B85221789BDA001A0892 /* OnlineGameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401B85121789BDA001A0892 /* OnlineGameManager.swift */; };
+		0401B85721789D37001A0892 /* AiGameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401B85621789D37001A0892 /* AiGameManager.swift */; };
+		0401B85921789E15001A0892 /* MiniMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401B85821789E15001A0892 /* MiniMax.swift */; };
+		0401B85B21789E37001A0892 /* AiMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0401B85A21789E37001A0892 /* AiMove.swift */; };
 		043409BD21759C9B004115F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043409BC21759C9B004115F3 /* AppDelegate.swift */; };
-		043409BF21759C9B004115F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043409BE21759C9B004115F3 /* ViewController.swift */; };
+		043409BF21759C9B004115F3 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043409BE21759C9B004115F3 /* HomeController.swift */; };
 		043409C221759C9C004115F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043409C021759C9C004115F3 /* Main.storyboard */; };
 		043409C421759C9E004115F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043409C321759C9E004115F3 /* Assets.xcassets */; };
 		043409C721759C9E004115F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043409C521759C9E004115F3 /* LaunchScreen.storyboard */; };
-		043409D221759C9E004115F3 /* SeGhatarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043409D121759C9E004115F3 /* SeGhatarTests.swift */; };
+		044E80F32179CDBF00F77502 /* chatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E80F22179CDBF00F77502 /* chatController.swift */; };
+		044E80F52179CEA100F77502 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044E80F42179CEA100F77502 /* MessageModel.swift */; };
+		04BC95DF217B19BC000076A2 /* IRAN_Sans_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04BC95DE217B19BC000076A2 /* IRAN_Sans_Bold.ttf */; };
+		04BC95E1217B1F16000076A2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BC95E0217B1F16000076A2 /* Constants.swift */; };
+		04BC95E4217B317A000076A2 /* loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BC95E3217B317A000076A2 /* loading.swift */; };
+		04BC95E6217B7FFC000076A2 /* HomePresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BC95E5217B7FFC000076A2 /* HomePresenterTest.swift */; };
+		04BC95E9217B829F000076A2 /* HomeMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BC95E8217B829F000076A2 /* HomeMock.swift */; };
+		04BC95EB217B8728000076A2 /* PresenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BC95EA217B8728000076A2 /* PresenterMock.swift */; };
+		04BC95ED217B8EE0000076A2 /* GameManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BC95EC217B8EE0000076A2 /* GameManagerMock.swift */; };
+		04BC95EF217B926F000076A2 /* ScoreManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BC95EE217B926F000076A2 /* ScoreManagerMock.swift */; };
+		04C886F52175AC9B00B30241 /* BoardLayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C886F42175AC9B00B30241 /* BoardLayerController.swift */; };
+		04C886F72175AF4500B30241 /* SebzehCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C886F62175AF4500B30241 /* SebzehCircleView.swift */; };
+		04C886F92175DE0800B30241 /* ColorExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C886F82175DE0800B30241 /* ColorExtentions.swift */; };
+		04C886FC2176112F00B30241 /* enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C886FB2176112F00B30241 /* enum.swift */; };
+		04E9D30D21773E270033DF69 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9D30C21773E270033DF69 /* HomePresenter.swift */; };
+		04E9D31021773E580033DF69 /* HomeContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9D30F21773E580033DF69 /* HomeContract.swift */; };
+		04E9D315217744B10033DF69 /* LocalGameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9D314217744B10033DF69 /* LocalGameManager.swift */; };
+		04E9D317217745200033DF69 /* GameManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9D316217745200033DF69 /* GameManagerDelegate.swift */; };
+		04E9D319217745C40033DF69 /* GameDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9D318217745C40033DF69 /* GameDelegate.swift */; };
+		04E9D31B217794D20033DF69 /* SebzehDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9D31A217794D20033DF69 /* SebzehDelegate.swift */; };
+		45A796E0D1A454D053E2AAD7 /* Pods_SeGhatar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267C4C9124D5BF3182B8DDBD /* Pods_SeGhatar.framework */; };
+		466356FA1C5A571A39EC39E1 /* Pods_SeGhatarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53AB178E259D997195406541 /* Pods_SeGhatarTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +61,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0401B83821779F59001A0892 /* ScoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreManager.swift; sourceTree = "<group>"; };
+		0401B83A2177A08B001A0892 /* ScoreDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreDelegate.swift; sourceTree = "<group>"; };
+		0401B83C2177A104001A0892 /* DefaultScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultScore.swift; sourceTree = "<group>"; };
+		0401B83E2177A28A001A0892 /* ScoreManagerBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreManagerBase.swift; sourceTree = "<group>"; };
+		0401B8402177A341001A0892 /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
+		0401B8432177B0E3001A0892 /* BaseDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDelegate.swift; sourceTree = "<group>"; };
+		0401B8452177BA3D001A0892 /* DefualtScoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefualtScoreTests.swift; sourceTree = "<group>"; };
+		0401B848217844F3001A0892 /* gameOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameOptions.swift; sourceTree = "<group>"; };
+		0401B84A217876C6001A0892 /* OptionsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsItem.swift; sourceTree = "<group>"; };
+		0401B84C21787AE3001A0892 /* optionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = optionItem.swift; sourceTree = "<group>"; };
+		0401B85121789BDA001A0892 /* OnlineGameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineGameManager.swift; sourceTree = "<group>"; };
+		0401B85621789D37001A0892 /* AiGameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiGameManager.swift; sourceTree = "<group>"; };
+		0401B85821789E15001A0892 /* MiniMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniMax.swift; sourceTree = "<group>"; };
+		0401B85A21789E37001A0892 /* AiMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiMove.swift; sourceTree = "<group>"; };
 		043409B921759C9B004115F3 /* SeGhatar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeGhatar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		043409BC21759C9B004115F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		043409BE21759C9B004115F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		043409BE21759C9B004115F3 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		043409C121759C9C004115F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		043409C321759C9E004115F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		043409C621759C9E004115F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		043409C821759C9E004115F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		043409CD21759C9E004115F3 /* SeGhatarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeGhatarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		043409D121759C9E004115F3 /* SeGhatarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeGhatarTests.swift; sourceTree = "<group>"; };
 		043409D321759C9E004115F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044E80F22179CDBF00F77502 /* chatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatController.swift; sourceTree = "<group>"; };
+		044E80F42179CEA100F77502 /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		04BC95DE217B19BC000076A2 /* IRAN_Sans_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRAN_Sans_Bold.ttf; sourceTree = "<group>"; };
+		04BC95E0217B1F16000076A2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		04BC95E3217B317A000076A2 /* loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loading.swift; sourceTree = "<group>"; };
+		04BC95E5217B7FFC000076A2 /* HomePresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenterTest.swift; sourceTree = "<group>"; };
+		04BC95E8217B829F000076A2 /* HomeMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMock.swift; sourceTree = "<group>"; };
+		04BC95EA217B8728000076A2 /* PresenterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterMock.swift; sourceTree = "<group>"; };
+		04BC95EC217B8EE0000076A2 /* GameManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManagerMock.swift; sourceTree = "<group>"; };
+		04BC95EE217B926F000076A2 /* ScoreManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreManagerMock.swift; sourceTree = "<group>"; };
+		04C886F42175AC9B00B30241 /* BoardLayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardLayerController.swift; sourceTree = "<group>"; };
+		04C886F62175AF4500B30241 /* SebzehCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SebzehCircleView.swift; sourceTree = "<group>"; };
+		04C886F82175DE0800B30241 /* ColorExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtentions.swift; sourceTree = "<group>"; };
+		04C886FB2176112F00B30241 /* enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enum.swift; sourceTree = "<group>"; };
+		04E9D30C21773E270033DF69 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		04E9D30F21773E580033DF69 /* HomeContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContract.swift; sourceTree = "<group>"; };
+		04E9D314217744B10033DF69 /* LocalGameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalGameManager.swift; sourceTree = "<group>"; };
+		04E9D316217745200033DF69 /* GameManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManagerDelegate.swift; sourceTree = "<group>"; };
+		04E9D318217745C40033DF69 /* GameDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDelegate.swift; sourceTree = "<group>"; };
+		04E9D31A217794D20033DF69 /* SebzehDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SebzehDelegate.swift; sourceTree = "<group>"; };
+		267C4C9124D5BF3182B8DDBD /* Pods_SeGhatar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeGhatar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E47D992B5AED4AA8B011100 /* Pods-SeGhatar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeGhatar.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeGhatar/Pods-SeGhatar.release.xcconfig"; sourceTree = "<group>"; };
+		53AB178E259D997195406541 /* Pods_SeGhatarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeGhatarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A7418A313AFC989F8F0D599 /* Pods-SeGhatarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeGhatarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeGhatarTests/Pods-SeGhatarTests.release.xcconfig"; sourceTree = "<group>"; };
+		914EE7977FAA1939E4D49DB0 /* Pods-SeGhatarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeGhatarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeGhatarTests/Pods-SeGhatarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		99525943F664BA015E80FEF4 /* Pods-SeGhatar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeGhatar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeGhatar/Pods-SeGhatar.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45A796E0D1A454D053E2AAD7 /* Pods_SeGhatar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +125,83 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				466356FA1C5A571A39EC39E1 /* Pods_SeGhatarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0401B83721779F13001A0892 /* scoreManager */ = {
+			isa = PBXGroup;
+			children = (
+				0401B8422177B0CE001A0892 /* base */,
+				0401B83821779F59001A0892 /* ScoreManager.swift */,
+				0401B83A2177A08B001A0892 /* ScoreDelegate.swift */,
+				0401B83C2177A104001A0892 /* DefaultScore.swift */,
+			);
+			path = scoreManager;
+			sourceTree = "<group>";
+		};
+		0401B8422177B0CE001A0892 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				0401B83E2177A28A001A0892 /* ScoreManagerBase.swift */,
+				0401B8432177B0E3001A0892 /* BaseDelegate.swift */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		0401B84721784440001A0892 /* gameOptions */ = {
+			isa = PBXGroup;
+			children = (
+				0401B848217844F3001A0892 /* gameOptions.swift */,
+				0401B84A217876C6001A0892 /* OptionsItem.swift */,
+			);
+			path = gameOptions;
+			sourceTree = "<group>";
+		};
+		0401B85021789BBE001A0892 /* onlineGameManager */ = {
+			isa = PBXGroup;
+			children = (
+				0401B85421789D0C001A0892 /* webSocket */,
+				0401B85121789BDA001A0892 /* OnlineGameManager.swift */,
+			);
+			path = onlineGameManager;
+			sourceTree = "<group>";
+		};
+		0401B85321789BE2001A0892 /* LocalGameManager */ = {
+			isa = PBXGroup;
+			children = (
+				04E9D314217744B10033DF69 /* LocalGameManager.swift */,
+			);
+			path = LocalGameManager;
+			sourceTree = "<group>";
+		};
+		0401B85421789D0C001A0892 /* webSocket */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = webSocket;
+			sourceTree = "<group>";
+		};
+		0401B85521789D24001A0892 /* aiGameManager */ = {
+			isa = PBXGroup;
+			children = (
+				0401B85621789D37001A0892 /* AiGameManager.swift */,
+				0401B85821789E15001A0892 /* MiniMax.swift */,
+			);
+			path = aiGameManager;
+			sourceTree = "<group>";
+		};
 		043409B021759C9B004115F3 = {
 			isa = PBXGroup;
 			children = (
 				043409BB21759C9B004115F3 /* SeGhatar */,
 				043409D021759C9E004115F3 /* SeGhatarTests */,
 				043409BA21759C9B004115F3 /* Products */,
+				E2BA6451579FA9D7697122A3 /* Pods */,
+				098B6BD0F2A1B50C59ABEF03 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +217,17 @@
 		043409BB21759C9B004115F3 /* SeGhatar */ = {
 			isa = PBXGroup;
 			children = (
+				04BC95DD217B1987000076A2 /* Fonts */,
+				0401B83721779F13001A0892 /* scoreManager */,
+				04E9D312217744780033DF69 /* gameManager */,
+				04C886FA2176110000B30241 /* model */,
+				04C886F12175A8FC00B30241 /* ui */,
 				043409BC21759C9B004115F3 /* AppDelegate.swift */,
-				043409BE21759C9B004115F3 /* ViewController.swift */,
 				043409C021759C9C004115F3 /* Main.storyboard */,
 				043409C321759C9E004115F3 /* Assets.xcassets */,
 				043409C521759C9E004115F3 /* LaunchScreen.storyboard */,
 				043409C821759C9E004115F3 /* Info.plist */,
+				04BC95E0217B1F16000076A2 /* Constants.swift */,
 			);
 			path = SeGhatar;
 			sourceTree = "<group>";
@@ -90,10 +235,132 @@
 		043409D021759C9E004115F3 /* SeGhatarTests */ = {
 			isa = PBXGroup;
 			children = (
-				043409D121759C9E004115F3 /* SeGhatarTests.swift */,
+				04BC95E7217B827F000076A2 /* mock */,
 				043409D321759C9E004115F3 /* Info.plist */,
+				0401B8452177BA3D001A0892 /* DefualtScoreTests.swift */,
+				04BC95E5217B7FFC000076A2 /* HomePresenterTest.swift */,
 			);
 			path = SeGhatarTests;
+			sourceTree = "<group>";
+		};
+		04BC95DD217B1987000076A2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				04BC95DE217B19BC000076A2 /* IRAN_Sans_Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		04BC95E2217B316A000076A2 /* widget */ = {
+			isa = PBXGroup;
+			children = (
+				04BC95E3217B317A000076A2 /* loading.swift */,
+			);
+			path = widget;
+			sourceTree = "<group>";
+		};
+		04BC95E7217B827F000076A2 /* mock */ = {
+			isa = PBXGroup;
+			children = (
+				04BC95E8217B829F000076A2 /* HomeMock.swift */,
+				04BC95EA217B8728000076A2 /* PresenterMock.swift */,
+				04BC95EC217B8EE0000076A2 /* GameManagerMock.swift */,
+				04BC95EE217B926F000076A2 /* ScoreManagerMock.swift */,
+			);
+			path = mock;
+			sourceTree = "<group>";
+		};
+		04C886F12175A8FC00B30241 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				04BC95E2217B316A000076A2 /* widget */,
+				04E9D3112177428E0033DF69 /* mainView */,
+				04C886F82175DE0800B30241 /* ColorExtentions.swift */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		04C886F22175AAFA00B30241 /* chat */ = {
+			isa = PBXGroup;
+			children = (
+				044E80F22179CDBF00F77502 /* chatController.swift */,
+			);
+			path = chat;
+			sourceTree = "<group>";
+		};
+		04C886F32175ABA900B30241 /* board */ = {
+			isa = PBXGroup;
+			children = (
+				04C886F42175AC9B00B30241 /* BoardLayerController.swift */,
+				04C886F62175AF4500B30241 /* SebzehCircleView.swift */,
+				04E9D31A217794D20033DF69 /* SebzehDelegate.swift */,
+			);
+			path = board;
+			sourceTree = "<group>";
+		};
+		04C886FA2176110000B30241 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				04C886FB2176112F00B30241 /* enum.swift */,
+				0401B8402177A341001A0892 /* Step.swift */,
+				0401B84C21787AE3001A0892 /* optionItem.swift */,
+				0401B85A21789E37001A0892 /* AiMove.swift */,
+				044E80F42179CEA100F77502 /* MessageModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		04E9D3112177428E0033DF69 /* mainView */ = {
+			isa = PBXGroup;
+			children = (
+				0401B84721784440001A0892 /* gameOptions */,
+				04C886F22175AAFA00B30241 /* chat */,
+				04C886F32175ABA900B30241 /* board */,
+				043409BE21759C9B004115F3 /* HomeController.swift */,
+				04E9D30F21773E580033DF69 /* HomeContract.swift */,
+				04E9D30C21773E270033DF69 /* HomePresenter.swift */,
+			);
+			path = mainView;
+			sourceTree = "<group>";
+		};
+		04E9D312217744780033DF69 /* gameManager */ = {
+			isa = PBXGroup;
+			children = (
+				04E9D313217744900033DF69 /* gameMethod */,
+				04E9D316217745200033DF69 /* GameManagerDelegate.swift */,
+				04E9D318217745C40033DF69 /* GameDelegate.swift */,
+			);
+			path = gameManager;
+			sourceTree = "<group>";
+		};
+		04E9D313217744900033DF69 /* gameMethod */ = {
+			isa = PBXGroup;
+			children = (
+				0401B85521789D24001A0892 /* aiGameManager */,
+				0401B85321789BE2001A0892 /* LocalGameManager */,
+				0401B85021789BBE001A0892 /* onlineGameManager */,
+			);
+			path = gameMethod;
+			sourceTree = "<group>";
+		};
+		098B6BD0F2A1B50C59ABEF03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				267C4C9124D5BF3182B8DDBD /* Pods_SeGhatar.framework */,
+				53AB178E259D997195406541 /* Pods_SeGhatarTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2BA6451579FA9D7697122A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99525943F664BA015E80FEF4 /* Pods-SeGhatar.debug.xcconfig */,
+				4E47D992B5AED4AA8B011100 /* Pods-SeGhatar.release.xcconfig */,
+				914EE7977FAA1939E4D49DB0 /* Pods-SeGhatarTests.debug.xcconfig */,
+				7A7418A313AFC989F8F0D599 /* Pods-SeGhatarTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +370,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 043409D621759C9E004115F3 /* Build configuration list for PBXNativeTarget "SeGhatar" */;
 			buildPhases = (
+				AFD393BDF8D29922B7EF312A /* [CP] Check Pods Manifest.lock */,
 				043409B521759C9B004115F3 /* Sources */,
 				043409B621759C9B004115F3 /* Frameworks */,
 				043409B721759C9B004115F3 /* Resources */,
+				3B8561C5BF26F405B70AAE61 /* [CP] Embed Pods Frameworks */,
+				21A79E56E426685359FF6DC6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +390,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 043409D921759C9E004115F3 /* Build configuration list for PBXNativeTarget "SeGhatarTests" */;
 			buildPhases = (
+				57D02F12BF6F27165BC4F514 /* [CP] Check Pods Manifest.lock */,
 				043409C921759C9E004115F3 /* Sources */,
 				043409CA21759C9E004115F3 /* Frameworks */,
 				043409CB21759C9E004115F3 /* Resources */,
+				ECA1BC61E950143770A6AE9B /* [CP] Embed Pods Frameworks */,
+				2F0061116955A74214DC36C9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,6 +450,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BC95DF217B19BC000076A2 /* IRAN_Sans_Bold.ttf in Resources */,
 				043409C721759C9E004115F3 /* LaunchScreen.storyboard in Resources */,
 				043409C421759C9E004115F3 /* Assets.xcassets in Resources */,
 				043409C221759C9C004115F3 /* Main.storyboard in Resources */,
@@ -192,13 +466,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21A79E56E426685359FF6DC6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeGhatar/Pods-SeGhatar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F0061116955A74214DC36C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeGhatarTests/Pods-SeGhatarTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B8561C5BF26F405B70AAE61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SeGhatar/Pods-SeGhatar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeGhatar/Pods-SeGhatar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57D02F12BF6F27165BC4F514 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeGhatarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFD393BDF8D29922B7EF312A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeGhatar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECA1BC61E950143770A6AE9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeGhatarTests/Pods-SeGhatarTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		043409B521759C9B004115F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				043409BF21759C9B004115F3 /* ViewController.swift in Sources */,
+				04E9D30D21773E270033DF69 /* HomePresenter.swift in Sources */,
+				04E9D315217744B10033DF69 /* LocalGameManager.swift in Sources */,
+				04E9D317217745200033DF69 /* GameManagerDelegate.swift in Sources */,
+				0401B83F2177A28A001A0892 /* ScoreManagerBase.swift in Sources */,
+				04C886F52175AC9B00B30241 /* BoardLayerController.swift in Sources */,
+				04BC95E1217B1F16000076A2 /* Constants.swift in Sources */,
+				0401B83D2177A104001A0892 /* DefaultScore.swift in Sources */,
+				04BC95E4217B317A000076A2 /* loading.swift in Sources */,
+				043409BF21759C9B004115F3 /* HomeController.swift in Sources */,
+				0401B8442177B0E3001A0892 /* BaseDelegate.swift in Sources */,
+				044E80F32179CDBF00F77502 /* chatController.swift in Sources */,
+				04C886FC2176112F00B30241 /* enum.swift in Sources */,
+				04E9D31021773E580033DF69 /* HomeContract.swift in Sources */,
+				04C886F92175DE0800B30241 /* ColorExtentions.swift in Sources */,
 				043409BD21759C9B004115F3 /* AppDelegate.swift in Sources */,
+				0401B85B21789E37001A0892 /* AiMove.swift in Sources */,
+				0401B8412177A341001A0892 /* Step.swift in Sources */,
+				0401B85721789D37001A0892 /* AiGameManager.swift in Sources */,
+				0401B84D21787AE3001A0892 /* optionItem.swift in Sources */,
+				0401B83B2177A08B001A0892 /* ScoreDelegate.swift in Sources */,
+				0401B85221789BDA001A0892 /* OnlineGameManager.swift in Sources */,
+				0401B84B217876C6001A0892 /* OptionsItem.swift in Sources */,
+				04C886F72175AF4500B30241 /* SebzehCircleView.swift in Sources */,
+				0401B849217844F3001A0892 /* gameOptions.swift in Sources */,
+				0401B83921779F59001A0892 /* ScoreManager.swift in Sources */,
+				044E80F52179CEA100F77502 /* MessageModel.swift in Sources */,
+				04E9D319217745C40033DF69 /* GameDelegate.swift in Sources */,
+				0401B85921789E15001A0892 /* MiniMax.swift in Sources */,
+				04E9D31B217794D20033DF69 /* SebzehDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +611,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				043409D221759C9E004115F3 /* SeGhatarTests.swift in Sources */,
+				04BC95EF217B926F000076A2 /* ScoreManagerMock.swift in Sources */,
+				04BC95EB217B8728000076A2 /* PresenterMock.swift in Sources */,
+				0401B8462177BA3D001A0892 /* DefualtScoreTests.swift in Sources */,
+				04BC95E6217B7FFC000076A2 /* HomePresenterTest.swift in Sources */,
+				04BC95E9217B829F000076A2 /* HomeMock.swift in Sources */,
+				04BC95ED217B8EE0000076A2 /* GameManagerMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +768,7 @@
 		};
 		043409D721759C9E004115F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99525943F664BA015E80FEF4 /* Pods-SeGhatar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -376,6 +787,7 @@
 		};
 		043409D821759C9E004115F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E47D992B5AED4AA8B011100 /* Pods-SeGhatar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +806,7 @@
 		};
 		043409DA21759C9E004115F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 914EE7977FAA1939E4D49DB0 /* Pods-SeGhatarTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +828,7 @@
 		};
 		043409DB21759C9E004115F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7418A313AFC989F8F0D599 /* Pods-SeGhatarTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
