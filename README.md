@@ -3,6 +3,7 @@ swift
 - mvp 
 - unittest
 - XCTest
+- minimax
 - no storyboard
 - Starscream
 
