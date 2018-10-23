@@ -164,7 +164,6 @@
 		0401B85021789BBE001A0892 /* onlineGameManager */ = {
 			isa = PBXGroup;
 			children = (
-				0401B85421789D0C001A0892 /* webSocket */,
 				0401B85121789BDA001A0892 /* OnlineGameManager.swift */,
 			);
 			path = onlineGameManager;
@@ -176,13 +175,6 @@
 				04E9D314217744B10033DF69 /* LocalGameManager.swift */,
 			);
 			path = LocalGameManager;
-			sourceTree = "<group>";
-		};
-		0401B85421789D0C001A0892 /* webSocket */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = webSocket;
 			sourceTree = "<group>";
 		};
 		0401B85521789D24001A0892 /* aiGameManager */ = {
@@ -774,6 +766,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62X7XLV693;
 				INFOPLIST_FILE = SeGhatar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -793,6 +786,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62X7XLV693;
 				INFOPLIST_FILE = SeGhatar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

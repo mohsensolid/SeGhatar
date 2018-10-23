@@ -29,7 +29,7 @@ class LocalGameManager:GameManagerDelegate {
     }
     
     func dispose() {
-        delegate = nil
+        self.delegate = nil        
     }
     
     func restart() {

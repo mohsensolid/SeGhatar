@@ -128,6 +128,10 @@ class HomeController: UIViewController,UIGestureRecognizerDelegate {
         setupView()
         
     }
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        self.presenter?.dispose()
+    }
     @objc func dissMissKeyBoard(){
         view.endEditing(true)
     }
@@ -158,7 +162,12 @@ class HomeController: UIViewController,UIGestureRecognizerDelegate {
         view.addSubview(saveArea)
         view.addSubview(options)
      
-    NSLayoutConstraint.activate([firstLayer.widthAnchor.constraint(equalToConstant:     boardSize),firstLayer.heightAnchor.constraint(equalToConstant:boardSize),firstLayer.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: boardMargin),firstLayer.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -boardMargin),firstLayer.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: boardMargin)])
+        if #available(iOS 11.0, *) {
+            NSLayoutConstraint.activate([firstLayer.widthAnchor.constraint(equalToConstant:     boardSize),firstLayer.heightAnchor.constraint(equalToConstant:boardSize),firstLayer.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: boardMargin),firstLayer.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -boardMargin),firstLayer.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: boardMargin)])
+        } else {
+            // Fallback on earlier versions
+            NSLayoutConstraint.activate([firstLayer.widthAnchor.constraint(equalToConstant:     boardSize),firstLayer.heightAnchor.constraint(equalToConstant:boardSize),firstLayer.topAnchor.constraint(equalTo: view.topAnchor, constant: boardMargin),firstLayer.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -boardMargin),firstLayer.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: boardMargin)])
+        }
         
         NSLayoutConstraint.activate([secondLayer.widthAnchor.constraint(equalToConstant: boardSize - boardGap),secondLayer.heightAnchor.constraint(equalToConstant: boardSize - boardGap),secondLayer.centerXAnchor.constraint(equalTo: firstLayer.centerXAnchor),secondLayer.centerYAnchor.constraint(equalTo: firstLayer.centerYAnchor)])
         
@@ -168,8 +177,18 @@ class HomeController: UIViewController,UIGestureRecognizerDelegate {
         
         NSLayoutConstraint.activate([blueScore.centerYAnchor.constraint(equalTo: firstLayer.centerYAnchor),blueScore.centerXAnchor.constraint(equalTo: firstLayer.centerXAnchor,constant:CGFloat(10)),blueScore.widthAnchor.constraint(equalToConstant: scoreCircleSize),blueScore.heightAnchor.constraint(equalToConstant: scoreCircleSize)])
         
-        NSLayoutConstraint.activate([options.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor),options.rightAnchor.constraint(equalTo: self.view.rightAnchor),options.leftAnchor.constraint(equalTo: self.view.leftAnchor)])
-        NSLayoutConstraint.activate([chatHolder.topAnchor.constraint(equalTo: firstLayer.bottomAnchor, constant: margin.veryLarge),chatHolder.rightAnchor.constraint(equalTo: self.view.rightAnchor),chatHolder.leftAnchor.constraint(equalTo: self.view.leftAnchor, constant:0),chatHolder.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor, constant: -65)])
+        if #available(iOS 11.0, *) {
+            NSLayoutConstraint.activate([options.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor),options.rightAnchor.constraint(equalTo: self.view.rightAnchor),options.leftAnchor.constraint(equalTo: self.view.leftAnchor)])
+        } else {
+            // Fallback on earlier versions
+            NSLayoutConstraint.activate([options.bottomAnchor.constraint(equalTo: self.view.bottomAnchor),options.rightAnchor.constraint(equalTo: self.view.rightAnchor),options.leftAnchor.constraint(equalTo: self.view.leftAnchor)])
+        }
+        if #available(iOS 11.0, *) {
+            NSLayoutConstraint.activate([chatHolder.topAnchor.constraint(equalTo: firstLayer.bottomAnchor, constant: margin.veryLarge),chatHolder.rightAnchor.constraint(equalTo: self.view.rightAnchor),chatHolder.leftAnchor.constraint(equalTo: self.view.leftAnchor, constant:0),chatHolder.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor, constant: -65)])
+        } else {
+            // Fallback on earlier versions
+             NSLayoutConstraint.activate([chatHolder.topAnchor.constraint(equalTo: firstLayer.bottomAnchor, constant: margin.veryLarge),chatHolder.rightAnchor.constraint(equalTo: self.view.rightAnchor),chatHolder.leftAnchor.constraint(equalTo: self.view.leftAnchor, constant:0),chatHolder.bottomAnchor.constraint(equalTo: self.view.bottomAnchor, constant: -65)])
+        }
         NSLayoutConstraint.activate([loading.centerXAnchor.constraint(equalTo: chatHolder.centerXAnchor),loading.centerYAnchor.constraint(equalTo: chatHolder.centerYAnchor),loading.heightAnchor.constraint(equalToConstant: loadingSize),loading.widthAnchor.constraint(equalToConstant: loadingSize)])
         NSLayoutConstraint.activate([findOpponent.topAnchor.constraint(equalTo: loading.bottomAnchor, constant: 4),findOpponent.centerXAnchor.constraint(equalTo: self.view.centerXAnchor)])
         

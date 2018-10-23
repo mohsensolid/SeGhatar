@@ -73,6 +73,8 @@ class OnlineGameManager: GameManagerDelegate {
     
     func dispose() {
         self.delegate = nil
+        socket?.disconnect()
+        socket = nil
     }
     
     func restart() {

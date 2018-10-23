@@ -29,4 +29,5 @@ protocol HomePresenterContract {
     func aiGameSelected()
     func resetSelected()
     func sendMessage(msg:String)
+    func dispose()
 }

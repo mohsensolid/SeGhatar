@@ -9,6 +9,17 @@
 import Foundation
 
 class HomePresenter : HomePresenterContract {
+    func dispose() {
+        if gameManager != nil {
+            gameManager?.dispose()
+        }
+        if scoreManager != nil {
+            scoreManager?.dispose()
+        }
+        gameManager = nil
+        scoreManager = nil
+    }
+    
     
     var scoreManager:ScoreManager?
     var dalegate:HomeContract?
